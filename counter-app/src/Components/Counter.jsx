@@ -9,13 +9,14 @@ function Counter() {
     };
 
     const onDecrementClicked = () => {  
-        setCount(count - 1);
-    };
+      if (count > 0) {
+          setCount(count - 1);
+      }
+  };
 
     const onResetClicked = () => {  
         setCount(0);
     };
-
 
   return (
     <div>

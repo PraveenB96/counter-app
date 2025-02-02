@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './Components/Counter'
+import Rating from './Components/Rating'
 
 function App() {
 
